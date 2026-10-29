@@ -1,0 +1,25 @@
+# build / IDE
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+x64/
+*.user
+*.suo
+# local tooling and logs
+windows-form/.tools/
+windows-form/.docx_render_*/
+windows-form/.listing_render/
+*.log
+*.lnk
+~$*
+# local config with keys (example is committed)
+windows-form/storage.config
+windows-form/budget_data.txt
+# large third-party installer
+windows-form/psqlodbc_x64.msi
+# duplicate binaries / packaging scratch (one setup exe is kept in the repo root)
+windows-form/installer/output/
+windows-form/installer/redist/
+windows-form/installer/smart-install-maker/package/
+windows-form/installer/test-install/

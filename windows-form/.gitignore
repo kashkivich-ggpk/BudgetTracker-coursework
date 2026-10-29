@@ -1,0 +1,13 @@
+# Visual Studio / MSBuild build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+.vs/
+
+# App data file generated at runtime
+budget_data.txt
